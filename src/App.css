@@ -1,0 +1,102 @@
+.center {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.w-100 {
+  width: 100%;
+}
+.f-w {
+  flex-wrap: wrap;
+}
+.f-d-c {
+  flex-direction: column;
+}
+.card {
+  margin: 10px;
+}
+.vh-50{
+  height: 50vh;
+}
+.f-g-0 {
+  flex-grow: 0 !important;
+}
+.App {
+  text-align: center;
+}
+.card-img-top {
+  max-width: 300px;
+  max-height: 300px;
+}
+.BigCard {
+  width: 100%;
+  flex-direction: column;
+  position: fixed;
+  height: 100vh;
+  background: #212929;
+  color: aliceblue;
+  top: 0;
+  z-index: 1111;
+  right: 0;
+}
+.BigCard .img {
+  width: 400px;
+  padding: 10px;
+  height: 400px;
+
+}
+.BigCard .img img{
+  width: 100%;
+}
+.BigCard .text {
+  width: 50%;
+  padding: 10px;
+}
+.BigCard .close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+.BigCard button{
+  margin: 5px;
+}
+.BigCard .text .color{
+  width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 0;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
